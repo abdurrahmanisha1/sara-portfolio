@@ -1,0 +1,278 @@
+/********************
+ * MAX WIDTH 991PX *
+ ********************/
+
+@media screen and (max-width: 1200px) {
+  .header-v1 .hero-img .hero-img-pos-one, .header-v1 .hero-img .hero-img-pos-two, .header-v1 .hero-img .hero-img-pos-three{
+      display: none;
+    }
+    #primaryMenu .btn.btn-outline-primary {
+	  padding: 10px 14px;
+	  font-size: 18px;
+	  color: #ffffff;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	#primaryMenu .btn.btn-outline-primary {
+	  padding: 10px 14px;
+	  font-size: 18px;
+	  color: #ffffff;
+	}
+}
+
+ @media screen and (max-width: 991px) {
+    .header-v1 .hero-intro {
+      margin-bottom: 100px;
+    }
+    .header-v1 .hero-img .hero-img-pos-one, .header-v1 .hero-img .hero-img-pos-two, .header-v1 .hero-img .hero-img-pos-three{
+      display: none;
+    }
+    .header-v1 .hero-img .hero-img-pos-one {
+      position: absolute;
+      right: -25px;
+      top: 34px;
+    }
+    .header-v1 .hero-bottom .row {
+      flex-wrap: wrap;
+    }
+    .portfolio-one {
+      padding: 50px 0;
+    }
+    .work-services {
+      padding: 50px 0;
+    }
+    .clients {
+      padding: 50px 0;
+    }
+    .blog-section {
+      padding: 50px 0;
+    }
+    .blog-wrapper .blog-box {
+      max-width: 340px;
+      width: 100%;
+      background-color: #060606;
+      padding: 20px 20px 40px;
+      border-radius: 10px;
+    }
+    .testimonial-carousel.owl-theme .owl-nav {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      gap: 10px;
+      display: flex;
+      align-items: flex-end;
+    }
+    .my-resume {
+      padding: 50px 0;
+    }
+    footer {
+      padding: 75px 0 50px;
+    }
+    .contact-us {
+      padding: 50px 0;
+    }
+    .contact-us .section-img {
+      margin-bottom: 50px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    body{
+      overflow-x: hidden;
+    }
+    .hero-section {
+
+      padding: 40px 0;
+    }
+    .hero-intro h1 {
+      color: #ffffff;
+      margin-bottom: 30px;
+      font-size: 34px;
+      line-height: 50px;
+    }
+    .header-link li {
+      margin-right: 1px;
+      font-size: 16px;
+    }
+    .skills-section {
+      padding: 30px 0;
+    }
+    .progress-body.d-flex.justify-content-evenly.gap-3.pt-5{
+      display: block !important;
+    }
+    .hero-intro p {
+      margin-bottom: 20px;
+    }
+    .header-v1 .hero-section .hero-img {
+      position: relative;
+      margin-top: 70px;
+    }
+    .header-v1 .hero-img .hero-img-pos {
+      display: none;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 24px;
+    }
+    .section-header {
+      max-width: 100%;
+    }
+    .resume-tabs #resume-pills-tab .nav-link {
+      padding: 17px 38px;
+      border-radius: 5px;
+    }
+    .blog-header {
+      justify-content: center;
+      gap: 25px;
+    }
+    .blog-header .btn {
+      padding: 15px 55px;
+      border-radius: 7px;
+    }
+    .header-v2 .hero-section .hero-intro {
+      margin-bottom: 85px;
+    }
+    .section-content {
+      margin-bottom: 50px;
+    }
+    .testimonial {
+      padding: 40px 0;
+    }
+    .testimonal-intro {
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      max-width: 600px;
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+    .testimonial-carousel.owl-theme .owl-nav {
+      display: none;
+    }
+    .testimonial-info span {
+      margin: 0;
+    }
+    .testimonial-info .info-text {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .review-stars {
+      display: flex;
+      flex-flow: row nowrap;
+      gap: 10px;
+      padding: 18px 35px;
+      border-radius: 5px;
+      background-color: #1a1a1a;
+    }
+    .contact-us .section-content h2{font-size: 28px;}
+    .blog-section-v2 .blog-header {
+      justify-content: center;
+      max-width: 100%;
+      text-align: center;
+    }
+    .footer-body .list-links {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 40px;
+      row-gap: 20px;
+      justify-content: center;
+    }
+    .portfolio-one .portfolio-wrapper .portfolio-box {
+      width: 100%;
+    }
+    .portfolio-one .portfolio-wrapper .portfolio-box img {
+      max-width: 100%;
+      height: auto;
+    }
+    .sigle-post-title {
+      font-size: 48px;
+      line-height: 55px;
+    }
+    .comment-section h2 {
+      font-size: 40px;
+    }
+    .page-sidebar h4 {
+      font-size: 27px;
+    }
+  }
+  @media screen and (max-width: 565px) {
+    h1 {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 65px;
+    }
+    .header-v1 .hero-intro .multi-btn .btn.btn-primary,
+    .header-v1 .hero-intro .multi-btn .btn.btn-outline-primary,
+    .header-v2 .hero-intro .multi-btn .btn.btn-primary,
+    .header-v2 .hero-intro .multi-btn .btn.btn-outline-primary {
+      padding: 18px 45px;
+      border-radius: 5px;
+      margin: 0 auto;
+    }
+    .header-v2 .hero-section .hero-intro {
+      margin-bottom: 85px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 30px;
+      line-height: 52px;
+    }
+    h5 {
+      font-size: 22px;
+      line-height: 25px;
+    }
+    h3 {
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 45px;
+    }
+    .my-work .section-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+    }
+    .counter-wrapper {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .hero-section {
+      padding: 50px 0 65px;
+    }
+    .blog-header {
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 60px;
+    }
+    h3 {
+      font-size: 30px;
+      line-height: 44px;
+    }
+    .resume-tabs .content-wrapper .content-box {
+      padding: 25px 30px;
+      border-radius: 0;
+      margin-bottom: 38px;
+    }
+  }
+
+ @media only screen and (min-width: 992px) and (max-width: 1400px) {
+     body {
+      overflow-x: hidden;
+    }
+    .header-v1 .hero-img .hero-img-pos-one, .header-v1 .hero-img .hero-img-pos-two, .header-v1 .hero-img .hero-img-pos-three{
+      display: none;
+    }
+}
+  
